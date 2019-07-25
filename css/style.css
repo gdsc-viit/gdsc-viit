@@ -1,0 +1,178 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+ div.bar::after,
+div.bar::before {
+  content: "";
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  width: 180px;
+  display: block;
+  margin: 0px auto;
+  display: none;
+}
+div .bar {
+  margin-bottom: 100px;
+}
+
+  h3.light::after,
+  h3.light::before {
+    position: relative;
+    content: "";
+    border-bottom: 1px solid rgba(0, 0, 0, 0.75);
+    width: 60px;
+    padding: -10px;
+    display: inline-block;
+    top: -8px;
+    left: -1px;
+    margin: 0px 5px;
+  }
+  div.bar
+  {
+    text-align: center;
+    font-family: 
+    font-size:6em; 
+  }
+  .card-title {
+    font-weight: 300;
+    font-size: 2rem;
+}
+.product-card .card {
+    margin: 20px;
+    overflow: hidden;
+}
+.product-card .card .card-content {
+    padding: 5px;
+}
+.product-card .card .price {
+    width: 70px;
+    height: 70px;
+    font-weight: 600;
+    font-size: 1.45rem;
+    line-height: 70px;
+    margin: 10px;
+    position: absolute;
+    top: 0;
+    letter-spacing: 0;
+}
+.product-card ul.card-action-buttons {
+    margin: -18px 7px 0 0;
+    text-align: right;
+}
+.product-card ul.card-action-buttons li {
+    display: inline-block;
+    padding-left: 7px;
+}
+.product {
+    width: 20%;
+    padding: 10px;
+}
+.product .card {
+    margin: 0;
+}
+.product .card .card-content {
+    padding: 5px 10px;
+}
+.carousel-item p{
+
+  font-size: 20px !important; 
+
+}
+.services {
+	padding: 100px 0;
+	text-align: center;
+	background: transparent
+}
+.services .header {
+	margin-bottom: 50px
+}
+.services .info {
+	padding: 40px;
+	background: #Fff;
+	margin-top: 23px;
+	transition: all 0.3s ease 0s;
+	border: 1px solid rgba(26, 26, 26, 0.07)
+}
+.services .info:hover {
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+	transform: translateY(-10px)
+}
+.services .info i {
+	padding: 11px;
+	border: 1px solid #e6e6e6;
+	font-size: 23px;
+	border-radius: 50%;
+	transition: 0.3s;
+	color: rgba(68, 68, 68, 0.8)
+}
+.services .info:hover i {
+	background: #1a1a1a;
+	border-color: #1a1a1a;
+	color: #fff
+}
+.services .info h5 {
+	font-size: 17px;
+	margin-top: 21px;
+	font-weight: 400
+}
+.services .info p {
+	color: #7e7e7e;
+	font-size: 12px
+}
+.contact{
+  padding: 40px 0;
+  background:transparent;
+  }
+  .contact .info{
+  margin-top: 50px
+  }
+  .contact .info .input-box{
+  position: relative;
+  }
+  .contact .info .input-box i {
+  position: absolute;
+  top: 19%;
+  }
+  .contact .info .input-box input {
+  text-indent: 25px;
+  }
+  .contact .info .input-box input:focus, 
+  .contact .info .input-box textarea:focus{
+  box-shadow: none !important;
+  border-color: #1a1a1a;
+  }
+  .contact .info .input-box textarea {
+  border: 0;
+  border-bottom: 1px solid #9e9e9e;
+  resize: none;
+  text-indent: 16px;
+  padding: 7px;
+  outline: none;
+  }
+  .contact .info .input-box input[type='submit'] {
+  width: 130px;
+  padding: 10px;
+  margin-top: 20px;
+  background: transparent;
+  color: #1a1a1a;
+  border: 2px solid #1a1a1a;
+  text-indent: 0;
+  text-align:center;
+  transition: 0.3s
+  }
+  .contact .info .input-box input[type='submit']:hover{
+  background: #1a1a1a;
+  color: #fff
+  }
+  
+  
