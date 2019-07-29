@@ -172,7 +172,10 @@ div .bar {
   }
   .contact .info .input-box input[type='submit']:hover{
   background: #1a1a1a;
-  color: #fff
+  color: #1a1a1a;
   }
   
-  
+  .card-image{
+    height: 400px; /* Your height here */
+    overflow: hidden;
+}
