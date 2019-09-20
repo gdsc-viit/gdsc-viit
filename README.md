@@ -1,2 +1,2 @@
 # dsc-viit.github.io
-Official Dsc Page
+Official DSC VIIT Webpage
